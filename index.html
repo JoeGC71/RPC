@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>RPC</title>
+    <script src="https://kit.fontawesome.com/304c640f12.js" crossorigin="anonymous"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Montserrat:ital,wght@1,300&family=Poppins:wght@200;400;600&family=Raleway:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
+    <link rel="shortcut icon" type="image/jpg" href="img/logo.jpg">
+</head>
+
+<body>
+    <div class="container___background-triangle">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle3"></div>
+    </div>
+    <!-- Player -->
+    <main class="player">
+        <!-- title -->
+        <h1 class="title">Nueva Canción</h1>
+        <!-- Cover -->
+            <img src="img/img-play.png" class="cover" >
+        <!-- Audio -->
+        <audio src="" id="audio"></audio>
+        <!-- Tiempo -->
+        <div class="time">
+            <h6 class="currentTime">0</h6>
+            <h6 class="duration">0</h6>
+        </div>
+        <!-- Progress bar -->
+        <div class="progress-container" id="progress-container">
+            <section class="progress" id="progress"></section>
+        </div>
+        <!-- Controls -->
+        <section class="controls">
+            <button class="prev">
+                <i class="fas fa-backward" id="prev"></i>
+            </button>
+            <button class="play">
+                <i class="fas fa-play" id="play"></i>
+            </button>
+            <button class="next">
+                <i class="fas fa-forward" id="next"></i>
+            </button>
+        </section>
+        <!-- List -->
+        <ul class="songs">
+            <!-- <li><a href="#">Song 1</a></li>
+        <li><a class="active" href="#">Song 2</a></li>
+        <li><a href="#">Song 3</a></li> -->
+        </ul>
+    </main>
+    <script src='main.js'></script>
+</body>
+
+</html>
